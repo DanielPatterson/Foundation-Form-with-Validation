@@ -1,4 +1,4 @@
-;(function ($, window, document, undefined) {
+// ;(function ($, window, document, undefined) {
   'use strict';
 
   Foundation.libs.abide = {
@@ -405,4 +405,4 @@
           });
     }
   };
-}(jQuery, window, window.document));
+//}(jQuery, window, window.document));
