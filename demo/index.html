@@ -1,0 +1,81 @@
+<!doctype html>
+<!--[if IE 9]><html class="lt-ie10" lang="en" > <![endif]-->
+<html class="no-js" lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <title>Foundation Form with Validation</title>
+    
+    <link rel="stylesheet" href="css/foundation.css" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/theme.css" />
+    
+    <script src="js/vendor/modernizr.js"></script>
+    
+</head>
+<body>
+<div class="row">
+    <div class="large-6 columns">
+    	
+        <h1>Foundation Form with Validation</h1>
+        
+        <div id="global-message" style="display: none">
+        	
+        </div>
+
+        <form name='feedback-form' data-abide>
+        	
+            <legend>Feedback <small class="right darkest-blue">* required fields</small></legend>
+            <hr />
+            
+            <fieldset>
+                <div class="firstname-field">
+                <label>First name *
+                <input type="text" required pattern="[a-zA-Z]+">
+                </label>
+                <small class="error">Please enter your first name.</small>
+                </div>
+                <div class="lastname-field">
+                <label>Last name *
+                <input type="text" required pattern="[a-zA-Z]+">
+                </label>
+                <small class="error">Please enter your last name.</small>
+                </div>
+                <div class="email-field">
+                <label>Email *
+                <input type="email" required>
+                </label>
+                <small class="error">An email address is required.</small>
+                </div>
+                <div class="feedback-field">
+                <label style="vertical-align: top">Feedback 
+                    <textarea name="feedback" rows="5" cols="20"></textarea>
+                </label>
+                </div>
+                
+                <div class="subscribeContainer">
+                    <input type="checkbox" name="subscribe">
+                    <label>Subscribe to mailing list</label>
+                </div>
+                
+                <div class="contactMeContainer">
+                    <input type="checkbox" name="contact-me" checked>
+                    <label>Please contact me</label>
+                </div> 
+                              
+                <hr /> 
+                <input type="submit" name='submit' value="submit" class="button radius right">
+            </fieldset>
+            
+		</form>
+        
+    </div>
+</div> 
+</body>
+</html>
+<script src="js/vendor/jquery.js"></script>
+<script src="js/foundation.min.js"></script>
+<script>
+	$(document).foundation();
+</script>

@@ -1,0 +1,100 @@
+img {
+margin: 20px 0 20px 0;
+width: 30%;
+}
+
+form {
+background-color: #f0f0f0;	
+overflow: auto;
+padding: 20px;	
+}
+
+legend {
+margin-bottom: 10px;
+}
+
+legend small {
+font-size: 10px;
+padding-top: 4px;	
+}
+
+fieldset {
+border: 0 none;	
+padding: 0;
+}
+
+label {
+font-size: 12px;
+font-weight: bold;
+}
+
+form,
+input[type="text"], 
+input[type="password"], 
+input[type="date"], 
+input[type="datetime"], 
+input[type="datetime-local"], 
+input[type="month"], 
+input[type="week"], 
+input[type="email"], 
+input[type="number"], 
+input[type="search"], 
+input[type="tel"], 
+input[type="time"], 
+input[type="url"], 
+input[type="color"], 
+textarea {
+border-radius: 4px;	
+-webkit-border-radius: 4px;
+font-weight: normal;
+}
+
+[data-abide] .error small.error, [data-abide] .error span.error, [data-abide] span.error {
+background: none repeat scroll 0% 0% #f04e58;
+border-radius: 4px;
+margin-top: 4px;
+}
+
+.subscribeContainer {
+margin-top: 15px; 	
+}
+
+.red {
+background: #f04e58;	
+}
+
+.lighter-blue {
+color: #6dbce5;	
+}
+
+.light-blue {
+color: #00a4d9;	
+}
+
+.blue {
+color: #007bb9;	
+}
+
+.icon-blue {
+color: #008bcb;	
+}
+
+.dark-blue {
+color: #005187;	
+}
+
+.darkest-blue {
+color: #003668;	
+}
+
+.grey {
+color: #f0f0f0;	
+}
+
+.orange {
+color: #f6bd57;	
+}
+
+.footer {
+color: #303030;	
+}
